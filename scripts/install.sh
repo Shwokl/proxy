@@ -20,3 +20,4 @@ sudo service nginx stop;
 sudo mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak;
 sudo mv config/nginx.conf /etc/nginx/nginx.conf;
 sudo mv config/conf.d/* /etc/nginx/conf.d/;
+sudo service nginx start;
