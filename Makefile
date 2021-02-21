@@ -1,2 +1,2 @@
 install:
-	sudo bash scripts/install
+	sudo bash scripts/install.sh
